@@ -5,7 +5,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 import path from "path";
 
 export default defineConfig(({ mode }) => ({
-  base: mode === "production" ? "/NimeshBaba-calendar/" : "/",
+  base: mode === "production" ? "/nimesh-baba-calendar/" : "/",
   plugins: [react(), tailwindcss(), tsconfigPaths()],
   resolve: {
     alias: {
