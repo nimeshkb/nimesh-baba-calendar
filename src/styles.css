@@ -95,6 +95,24 @@
   --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
   --sidebar-border: oklch(0.929 0.013 255.508);
   --sidebar-ring: oklch(0.704 0.04 256.788);
+
+  /* Nimesh Baba theme */
+  --primary: oklch(0.68 0.18 50);
+  --primary-foreground: oklch(0.99 0.01 80);
+  --accent: oklch(0.74 0.16 30);
+  --accent-foreground: oklch(0.99 0.01 80);
+  --saffron-soft: oklch(0.96 0.04 75);
+  --color-saffron-soft: var(--saffron-soft);
+  --shadow-elegant: 0 10px 40px -12px color-mix(in oklab, var(--primary) 30%, transparent);
+  --shadow-glow: 0 0 30px -5px color-mix(in oklab, var(--primary) 50%, transparent);
+  --font-display: "Cormorant Garamond", "Georgia", serif;
+}
+
+@theme inline {
+  --color-saffron-soft: var(--saffron-soft);
+  --shadow-elegant: var(--shadow-elegant);
+  --shadow-glow: var(--shadow-glow);
+  --font-display: var(--font-display);
 }
 
 .dark {
